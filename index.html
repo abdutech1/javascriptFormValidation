@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <div class="container">
+        
+    <form action="/submit" method="post" class="form">
+        
+        <label for="firstName" class="fname">First Name:
+            <input type="text" id="firstName" name="firstName" class="back-ground" placeholder="Your name" required></br>
+        </label>
+
+        <label for="lastName" class="lname">Last Name:
+            <input type="text" id="lastName" name="lastName"  placeholder="Your father's name"></br>
+        </label>
+
+        <label for="email" class="email">Email:
+            <input type="email" id="email" name="email" class="back-ground" placeholder="Email" required></br>
+        </label>
+
+        <label for="password" class="password">Password:
+            <input type="password" id="password" name="password" class="back-ground" placeholder="Password" required></br>
+        </label>
+
+        <input type="button" class="submit" id="submit-btn"  value="Submit">
+
+    </form>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

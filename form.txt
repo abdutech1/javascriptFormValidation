@@ -1,0 +1,11 @@
+creat html and css*************************
+creat a javascript code for form validation
+  create script file
+  create a function for each input field click
+  if a user click on the submit button without filling the first name it blink a red background on the field and says this field should be field.
+
+  **if a user click on the submit button without filling the email it blink a red background on the field and says please enter your email. if he enters the email without @ sign the email must contain @
+  ***if a user click on the submit button without filling password it blink a red background on the field and says please enter your password. checks does the password contains at least one special character, number and must me morthan six digits.
+  
+
+
